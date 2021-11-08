@@ -97,8 +97,9 @@ img {
   letter-spacing: 0.02em;
   
 }
+
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus{
   color: var(--accent-color);
 }
 
@@ -114,7 +115,7 @@ img {
   align-items: center;
   padding: 32px 0;
   
-
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -158,9 +159,19 @@ fill: inherit;
 }
 .btn-hero {
   display: block;
-  padding: 10px 32px;
   margin: 0 auto;
+  min-width: 200px;
+  max-height: 50px;
+  padding: 10px 32px;
   border: none;
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  
+
   background-color: var(--accent-color);
   border-radius: 4px;
   color:var(--additional-color);
