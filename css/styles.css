@@ -97,7 +97,9 @@ img {
   letter-spacing: 0.02em;
   
 }
-
+.current {
+  color:var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus{
   color: var(--accent-color);
